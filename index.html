@@ -892,7 +892,8 @@
 
             try {
                 // COLE AQUI A URL DO POWER AUTOMATE
-                const url = 'https://defaulta7cdc4473b294b41b73e8a2cb54b06.c6.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/fd1d3c2924e442cbbd3dd21010ac2a20/triggers/manual/paths/invoke?api-version=1';
+                const url = 'https://defaulta7cdc4473b294b41b73e8a2cb54b06.c6.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/fd1d3c2924e442cbbd3dd21010ac2a20/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=kN0NxlqxHoyFc0PQI8fZUhEXq_H8f3Tkl1OaP5DFH7M';
+
                 
                 const response = await fetch(url, {
                     method: 'POST',
@@ -919,3 +920,4 @@
     </script>
 </body>
 </html>
+
